@@ -1,0 +1,56 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-cont {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    width: 8rem;
+    padding: 2rem 0.5rem;
+}
+
+ul {
+    display: none;
+    background-color: rgb(144, 144, 232);
+    border-radius: 15px;
+}
+
+ul li {
+    list-style: none;
+    padding: 1rem;
+}
+
+ul li a {
+    color: white;
+}
+
+.nav-toggle {
+    width: 7rem;
+    height: 3rem;
+    border-radius: 15px;
+    background-color: rgb(233, 8, 8);
+    border: none;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.nav-toggle-open {
+    background-color: rgb(44, 222, 44);
+}
+
+.nav-toggle:hover {
+    color: white;
+}
+
+.nav-visible {
+    display: block;
+}
