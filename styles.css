@@ -69,7 +69,6 @@ ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
 }
 
 .pic-frame {
@@ -82,6 +81,13 @@ ul li a {
     height: 100%;
 }
 
+.arrow-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
 .arrow {
     width: 50px;
     cursor: pointer;
@@ -90,7 +96,6 @@ ul li a {
 .indicator {
     width: 15px;
     height: 15px;
-    background-color: none;
     border: 2px solid black;
     border-radius: 100%;
 }

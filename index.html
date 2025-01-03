@@ -7,7 +7,6 @@
         <link rel="stylesheet" href="./styles.css" />
     </head>
     <body>
-        <script src="./index.js"></script>
         <div class="main-cont">
             <nav>
                 <button class="nav-toggle nav-toggle-open">Open</button>
@@ -18,31 +17,29 @@
                 </ul>
             </nav>
             <div class="carousel-cont">
-                <div class="pic-carousel">
+                <div class="arrow-cont">
                     <img
-                        class="arrow"
+                        class="arrow left-arrow"
                         src="./assets/images/circle-left-solid.svg"
                         alt="Left"
                     />
+                    <img
+                        class="arrow right-arrow"
+                        src="./assets/images/circle-right-solid.svg"
+                        alt="Left"
+                    />
+                </div>
+                <div class="pic-carousel">
                     <div class="pic-frame">
                         <img
                             src="./assets/images/cook.jpg"
                             alt="kappachungus"
                         />
                     </div>
-                    <img
-                        class="arrow"
-                        src="./assets/images/circle-right-solid.svg"
-                        alt="Left"
-                    />
                 </div>
-                <div class="carousel-indicator">
-                    <div class="indicator img-select"></div>
-                    <div class="indicator"></div>
-                    <div class="indicator"></div>
-                    <div class="indicator"></div>
-                </div>
+                <div class="carousel-indicator"></div>
             </div>
         </div>
+        <script src="./index.js"></script>
     </body>
 </html>
